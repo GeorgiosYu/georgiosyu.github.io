@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.hhs.se/en/houseoffinance/about/people/resident/'>Swedish House of Finance</a>/Stockholm School of Economics
 
@@ -20,6 +20,4 @@ social: true # includes social icons at the bottom of the page
 
 I am a Ph.D. student in finance at the Swedish House of Finance, Stockholm School of Economics. My research interests include asset pricing, textual analysis, the implications of AI in finance, and sustainable finance.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on the insights gleaned from textual data, the impact of artificial intelligence on finance, and the integration of environmental sustainability in financial practices.
