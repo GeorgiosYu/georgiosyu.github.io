@@ -51,25 +51,17 @@ layout: default
     <!-- Works in progress -->
     {% if page.works_in_progress %}
       <h2>
-        <a href="{{ '/cv/#works-in-progress/' | relative_url }}" style="color: inherit">Works in progress</a>
+        <a href="{{ '/cv/#works-in-progress' | relative_url }}" style="color: inherit">Works in progress</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include wip.liquid %}
     {% endif %}
 
     <!-- Education -->
     {% if page.education %}
-      <h2>Education</h2>
-      <p><strong>Ph.D. in Finance</strong>, Stockholm, Sweden</p>
-      <p>Stockholm School of Econonomics</p>
-      <p><em>August 2021 - Present</em></p>
-      <!-- Add more educational details here -->
-      <p><strong>M.S. in Applied Economics and Management</strong>, Ithaca, NY</p>
-      <p>Cornell University</p>
-      <p><em>August 2019 - May 2021</em></p>
-      <!-- Add more educational details here -->
-      <p><strong>B.A. in Public Finance</strong>, Beijing, China</p>
-      <p>Central University of Finance and Economics</p>
-      <p><em>September 2015 - June 2019</em></p>
+      <h2>
+        <a href="{{ 'cv/#education-1' | relative_url }}" style="color: inherit">Education</a>
+      </h2>
+      {% include edu.liquid %}
     {% endif %}
 
     <!-- Latest posts -->

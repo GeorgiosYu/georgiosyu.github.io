@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+start_date: 2021-8-22 15:59:00-0400
+end_date: 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<img src="/assets/img/sse.png" alt="Description" style="width:60px; height:60px; vertical-align:middle;"> Ph.D. in Finance, Stockholm School of Economics
