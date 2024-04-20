@@ -15,6 +15,7 @@ profile:
     <p>113 50, Stockholm, Sweden</p>
 
 news: false # includes a list of news items
+works_in_progress: true
 education: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
 #latest_posts: false # includes a list of latest posts
