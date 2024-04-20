@@ -48,6 +48,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Education -->
+    {% if page.edu %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">education</a>
+      </h2>
+      {% include edu.liquid limit=true %}
+    {% endif %}
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
