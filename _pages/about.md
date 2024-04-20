@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+
 subtitle: <a href='https://www.hhs.se/en/houseoffinance/about/people/resident/'>Swedish House of Finance</a>/Stockholm School of Economics
 
 profile:
@@ -18,6 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in finance at the Swedish House of Finance, Stockholm School of Economics. My research interests include asset pricing, textual analysis, the implications of AI in finance, and sustainable finance.
+I am a Ph.D. student in finance at the Swedish House of Finance, Stockholm School of Economics. My research interests include empirical asset pricing, machine learning and textual analysis, the implications of AI in finance, and sustainable finance.
 
 My research focuses on the insights gleaned from textual data, the impact of artificial intelligence on finance, and the integration of environmental sustainability in financial practices.
