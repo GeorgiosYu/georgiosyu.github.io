@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 1
 cv_pdf: cv.pdf
-description: Here is a basic description of my background. For more information, please see my CV.
+description: Below is a brief overview of my background. For detailed information, please refer to my CV.
 toc:
   sidebar: left
 ---

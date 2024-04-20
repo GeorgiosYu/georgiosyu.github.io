@@ -12,13 +12,14 @@ profile:
   more_info: >
     <p>671/674</p>
     <p>Sveavägen 65</p>
-    <p>Stockholm, Sweden</p>
+    <p>113 50, Stockholm, Sweden</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+#latest_posts: false # includes a list of latest posts
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in finance at the Swedish House of Finance, Stockholm School of Economics. My research interests include empirical asset pricing, machine learning and textual analysis, the implications of AI in finance, and sustainable finance.
+I am a Ph.D. student in finance at the Swedish House of Finance, Stockholm School of Economics. My research interests include empirical asset pricing, investment strategies, machine learning and textual analysis, the implications of AI in finance, and sustainable finance.
 
 My research focuses on the insights gleaned from textual data, the impact of artificial intelligence on finance, and the integration of environmental sustainability in financial practices.
