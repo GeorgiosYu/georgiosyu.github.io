@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-<img src="/assets/img/cufe.png" alt="Description" style="width:60px; height:60px; vertical-align:middle;"> B.A. in Public Finance, Central University of Finance and Economics
+<a href="https://en.cufe.edu.cn/" target="_blank"><img src="/assets/img/cufe.png" alt="CUFE" style="width:60px; height:60px; vertical-align:middle;"></a> B.A. in Public Finance, Central University of Finance and Economics

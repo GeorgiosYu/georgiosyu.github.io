@@ -10,6 +10,9 @@ children:
   - title: divider
   - title: pronounce my name
     permalink: /pronounce/
+  - title: divider
+  - title: 中文
+    permalink: /chn/
 #  - title: divider
 #  - title: blog
 #    permalink: /blog/

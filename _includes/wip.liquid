@@ -16,7 +16,7 @@
         {% endif %}
         {% for item in wip limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.start_date | date: '%Y' }} - {{ item.end_date | date: '%Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%Y' }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

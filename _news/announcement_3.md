@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-<img src="/assets/img/sse.png" alt="Description" style="width:60px; height:60px; vertical-align:middle;"> Ph.D. in Finance, Stockholm School of Economics
+<a href="https://www.hhs.se/" target="_blank"><img src="/assets/img/sse.png" alt="SSE" style="width:60px; height:60px; vertical-align:middle;"></a> Ph.D. in Finance, Stockholm School of Economics
