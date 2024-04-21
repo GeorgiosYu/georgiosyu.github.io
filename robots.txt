@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://georgiosyu.github.io/sitemap.xml
+Sitemap: https://geyu.me/sitemap.xml
