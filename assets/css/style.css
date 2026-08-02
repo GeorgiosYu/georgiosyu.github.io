@@ -153,6 +153,27 @@ html {
   scroll-padding-top: 4.5rem;
 }
 
+/* Everything is sized in rem, so raising the root font size on wide screens
+   scales the whole composition proportionally and keeps the page from looking
+   lost in the middle of large monitors. */
+@media (min-width: 100em) {
+  html {
+    font-size: 17px; /* ≥1600px viewport → content column ~1207px */
+  }
+}
+
+@media (min-width: 120em) {
+  html {
+    font-size: 18px; /* ≥1920px viewport → content column ~1278px */
+  }
+}
+
+@media (min-width: 150em) {
+  html {
+    font-size: 20px; /* ≥2400px viewport → content column ~1420px */
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
