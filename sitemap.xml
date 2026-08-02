@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://geyu.me/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://geyu.me/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://geyu.me/chinese/" />
   </url>
   <url>
     <loc>https://geyu.me/cv/</loc>
+    <lastmod>2026-08-02</lastmod>
   </url>
   <url>
     <loc>https://geyu.me/teaching/</loc>
+    <lastmod>2026-08-02</lastmod>
   </url>
   <url>
     <loc>https://geyu.me/pronounce/</loc>
+    <lastmod>2026-08-02</lastmod>
   </url>
   <url>
     <loc>https://geyu.me/chinese/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://geyu.me/chinese/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geyu.me/" />
   </url>
 </urlset>

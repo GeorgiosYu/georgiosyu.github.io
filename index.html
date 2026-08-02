@@ -19,9 +19,105 @@
     <meta property="og:url" content="https://geyu.me/" />
     <meta property="og:image" content="https://geyu.me/assets/img/Ge-Yu-web.jpg" />
     <meta name="theme-color" content="#004932" />
+    <meta name="author" content="Ge Yu" />
+    <link rel="alternate" hreflang="en" href="https://geyu.me/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://geyu.me/chinese/" />
+    <link rel="alternate" hreflang="x-default" href="https://geyu.me/" />
     <link rel="icon" type="image/png" href="/assets/img/icon.png" />
     <link rel="apple-touch-icon" href="/assets/img/icon.png" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://geyu.me/#page",
+            "url": "https://geyu.me/",
+            "name": "Ge Yu — Ph.D. Candidate in Finance",
+            "isPartOf": { "@id": "https://geyu.me/#website" },
+            "mainEntity": { "@id": "https://geyu.me/#person" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://geyu.me/#website",
+            "url": "https://geyu.me/",
+            "name": "Ge Yu",
+            "publisher": { "@id": "https://geyu.me/#person" },
+            "inLanguage": ["en", "zh-Hans"]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://geyu.me/#person",
+            "name": "Ge Yu",
+            "alternateName": "余舸",
+            "givenName": "Ge",
+            "familyName": "Yu",
+            "jobTitle": "Ph.D. Candidate in Finance",
+            "email": "mailto:ge.yu@hhs.se",
+            "url": "https://geyu.me/",
+            "image": "https://geyu.me/assets/img/Ge-Yu-web.jpg",
+            "affiliation": [
+              {
+                "@type": "Organization",
+                "name": "Swedish House of Finance",
+                "url": "https://www.hhs.se/en/houseoffinance/"
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Stockholm School of Economics",
+                "url": "https://www.hhs.se/"
+              }
+            ],
+            "alumniOf": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Cornell University",
+                "url": "https://www.cornell.edu/"
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Central University of Finance and Economics",
+                "url": "https://en.cufe.edu.cn/"
+              }
+            ],
+            "workLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Sveavägen 65",
+                "postalCode": "113 50",
+                "addressLocality": "Stockholm",
+                "addressCountry": "SE"
+              }
+            },
+            "knowsAbout": [
+              "Financial intermediation",
+              "Machine learning and AI",
+              "Empirical asset pricing",
+              "FinTech",
+              "Mutual funds"
+            ],
+            "knowsLanguage": ["en", "zh"],
+            "sameAs": [
+              "https://github.com/geyu-hhs",
+              "https://www.linkedin.com/in/ge-yu-9a7752185",
+              "https://x.com/GYvious"
+            ]
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "@id": "https://geyu.me/#jmp",
+            "headline": "From Words to Portfolios: Disentangling Narrative and Reality in Mutual Fund Differentiation",
+            "author": { "@id": "https://geyu.me/#person" },
+            "url": "https://geyu.me/jmp/",
+            "about": ["Mutual funds", "Machine learning", "Product differentiation"],
+            "abstract": "This paper studies the difference between genuine portfolio innovation and narrative differentiation in mutual funds. Developing a deep-learning model, I construct two novel measures of mutual fund differentiation based on portfolio holdings and on prospectus narratives. I document that prospectus uniqueness commands higher fees and attracts additional capital when accompanied by an outstanding performance history, while portfolio uniqueness predicts future risk-adjusted performance among skilled managers. The results differ between retail and institutional investors: the flow response to prospectus uniqueness comes primarily from retail investors, while its fee premium is borne mainly by institutional investors. Together, these findings indicate that narrative differentiation in fund disclosures operates primarily as a marketing and pricing tool, whereas real product differentiation through genuinely distinctive portfolios is what generates alpha."
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>

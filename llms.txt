@@ -1,0 +1,31 @@
+# Ge Yu (余舸)
+
+> Personal academic website of Ge Yu, Ph.D. Candidate in Finance at the Swedish House of Finance, Stockholm School of Economics (Stockholm, Sweden). Research interests: financial intermediation, machine learning and AI, empirical asset pricing, and FinTech.
+
+Contact: ge.yu@hhs.se · Office 671/674, Sveavägen 65, 113 50 Stockholm, Sweden
+
+## Pages
+
+- [About](https://geyu.me/): Bio, works in progress, and education history
+- [CV](https://geyu.me/cv/): Education, job market paper, working papers, and research interests; PDF version at https://geyu.me/assets/pdf/cv.pdf
+- [Teachings](https://geyu.me/teaching/): Courses taught or assisted at the Stockholm School of Economics
+- [Pronounce My Name](https://geyu.me/pronounce/): "Ge Yu" is pronounced roughly "guh yoo" (Mandarin pinyin: Gě Yú)
+- [中文](https://geyu.me/chinese/): Chinese version of the homepage
+- [Job Market Paper](https://geyu.me/jmp/): Redirect to the latest draft PDF
+
+## Research
+
+- Job market paper: "From Words to Portfolios: Disentangling Narrative and Reality in Mutual Fund Differentiation" — develops a deep-learning model to construct two measures of mutual fund differentiation (portfolio holdings vs. prospectus narratives); finds narrative differentiation works as a marketing and pricing tool while genuine portfolio differentiation generates alpha. Latest draft: https://geyu.me/jmp/
+- Working paper: "Heterogeneous Investor Beliefs in the Age of AI"
+
+## Education
+
+- Ph.D. in Finance, Stockholm School of Economics (2021–present)
+- M.S. in Applied Economics and Management, Cornell University (2019–2021)
+- B.A. in Public Finance, Central University of Finance and Economics (2015–2019)
+
+## Profiles
+
+- GitHub: https://github.com/geyu-hhs
+- LinkedIn: https://www.linkedin.com/in/ge-yu-9a7752185
+- X (Twitter): https://x.com/GYvious
