@@ -6,7 +6,11 @@ served by GitHub Pages at [geyu.me](https://geyu.me/).
 The visual design is inspired by the Stockholm School of Economics
 ([hhs.se](https://www.hhs.se/)): PT Serif headings, PT Sans body text, warm cream
 surfaces, sage-green panels, and the SSE dark green (`#004932`) as the accent color.
-Fonts are self-hosted (ParaType PT fonts, SIL OFL license).
+Fonts are self-hosted (ParaType PT fonts, SIL OFL license). The Chinese name 余舸
+is set in 方正苏新诗柳楷 (FZ SuXinShi LiuKai), a 柳体 calligraphy face from 方正字库
+(free for personal, non-commercial use; a Founder licence is needed for commercial
+use), subset to those two characters. The full TTF lives in `../fonts-src/`, outside
+the deployed folder, for re-subsetting.
 
 ## Structure
 
