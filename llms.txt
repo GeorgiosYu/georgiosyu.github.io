@@ -16,8 +16,8 @@ Contact: ge.yu@hhs.se · Office 671/674, Sveavägen 65, 113 50 Stockholm, Sweden
 ## Research
 
 - Job market paper: "From Words to Portfolios: Disentangling Narrative and Reality in Mutual Fund Differentiation" — combines a transformer-based portfolio embedding model with large language model embeddings of fund prospectuses to construct two measures of mutual fund differentiation (portfolio holdings vs. prospectus narratives); the two are only weakly correlated, and the findings suggest narrative differentiation serves a marketing and pricing role, while portfolio uniqueness predicts future alpha only among funds with a strong track record. Latest draft: https://geyu.me/jmp/
-- Work in progress: "The Law of One Plot: Price Charts, Social Media Sentiment, and Flows" (with Riccardo Sabbatucci)
-- Work in progress: "Generative AI and the Bundling of Work Requirements" (with Tianxian Zheng and Haofeng Zhou)
+- Working paper: "The Law of One Plot: Price Charts, Social Media Sentiment, and Flows" (with Riccardo Sabbatucci)
+- Working paper: "Generative AI and the Bundling of Work Requirements" (with Tianxian Zheng and Haofeng Zhou)
 - Working paper: "Investor Beliefs in the Age of AI: Evidence from Prediction Markets"
 
 ## Education
