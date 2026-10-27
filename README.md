@@ -31,6 +31,12 @@ Shared styles live in `assets/css/style.css`; the only JavaScript
 ## Editing
 
 Every page is self-contained HTML — edit the file, refresh the browser.
+
+Whenever `assets/css/style.css` changes, bump the `?v=` date on its `<link>` in
+every page (`grep -rl 'style.css?v=' .`). GitHub Pages lets browsers reuse files for
+10 minutes, so without a new version a returning visitor can get the new HTML with
+the old styles.
+
 To preview locally, run any static file server from the repo root, e.g.:
 
 ```bash
