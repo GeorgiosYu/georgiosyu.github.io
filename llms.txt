@@ -6,19 +6,21 @@ Contact: ge.yu@hhs.se · Office 671/674, Sveavägen 65, 113 50 Stockholm, Sweden
 
 ## Pages
 
-- [About](https://geyu.me/): Bio, works in progress, and education history
-- [CV](https://geyu.me/cv/): Education, job market paper, working papers, and research interests; PDF version at https://geyu.me/assets/pdf/cv.pdf
-- [Teachings](https://geyu.me/teaching/): Courses taught or assisted at the Stockholm School of Economics
+- [About](https://geyu.me/): Bio, job market paper, works in progress, and education history
+- [CV](https://geyu.me/assets/pdf/cv.pdf): Curriculum vitae (PDF); https://geyu.me/cv/ redirects there
+- [Research](https://geyu.me/research/): Job market paper and works in progress
+- [Teaching](https://geyu.me/teaching/): Courses taught or assisted at the Stockholm School of Economics
 - [Pronounce My Name](https://geyu.me/pronounce/): "Ge Yu" is pronounced roughly "guh yoo" (Mandarin pinyin: Gě Yú)
 - [中文](https://geyu.me/chinese/): Chinese version of the homepage
 - [Job Market Paper](https://geyu.me/jmp/): Redirect to the latest draft PDF
 
 ## Research
 
-- Job market paper: "From Words to Portfolios: Disentangling Narrative and Reality in Mutual Fund Differentiation" — combines a transformer-based portfolio embedding model with large language model embeddings of fund prospectuses to construct two measures of mutual fund differentiation (portfolio holdings vs. prospectus narratives); the two are only weakly correlated, and the findings suggest narrative differentiation serves a marketing and pricing role, while portfolio uniqueness predicts future alpha only among funds with a strong track record. Latest draft: https://geyu.me/jmp/
-- Working paper: "The Law of One Plot: Price Charts, Social Media Sentiment, and Flows" (with Riccardo Sabbatucci)
-- Working paper: "Generative AI and the Bundling of Work Requirements" (with Tianxian Zheng and Haofeng Zhou)
-- Working paper: "Investor Beliefs in the Age of AI: Evidence from Prediction Markets"
+- Job market paper: "From Words to Portfolios: Disentangling Narrative and Reality in Mutual Fund Differentiation" (Best PhD Paper Award, 3rd AI in Finance Conference) — studies the different implications of portfolio and narrative differentiation for mutual fund fees, capital flows, and future performance; combines a transformer-based portfolio embedding model with large language model embeddings of fund prospectuses to construct two measures of mutual fund differentiation (portfolio holdings vs. prospectus narratives); the two are only weakly correlated, and the findings suggest narrative differentiation serves a marketing and pricing role, while portfolio uniqueness predicts future alpha among funds with a strong track record. Latest draft: https://geyu.me/jmp/
+- Work in progress: "Generative AI, Labor, and Financial Market" (with Mariassunta Giannetti)
+- Work in progress: "Attractive Curves in ETF Prices" (with Riccardo Sabbatucci)
+- Work in progress: "Generative AI and the Bundling of Work Requirements" (with Tianxiang Zheng and Haofeng Zhou)
+- Work in progress: "When AI Gets Nerfed: LLM Quality and Financial Markets"
 
 ## Education
 

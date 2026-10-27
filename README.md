@@ -17,10 +17,11 @@ the deployed folder, for re-subsetting.
 | Path                  | Page                              |
 | --------------------- | --------------------------------- |
 | `index.html`          | About (home)                      |
-| `cv/index.html`       | CV overview + PDF download        |
-| `teaching/index.html` | Teachings                         |
+| `research/index.html` | Research: job market paper + works in progress |
+| `teaching/index.html` | Teaching                          |
 | `pronounce/index.html`| How to pronounce "Ge Yu"          |
 | `chinese/index.html`  | 中文版个人主页                     |
+| `cv/index.html`       | Redirect to the CV PDF; the "CV" menu item links to `assets/pdf/cv.pdf` directly (replace that file to publish a new CV) |
 | `jmp/index.html`      | Redirect to the latest JMP draft (edit the Dropbox URL here to publish a new version) |
 | `404.html`            | Not-found page                    |
 

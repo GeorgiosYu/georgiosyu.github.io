@@ -625,6 +625,11 @@ a:hover {
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
 }
 
+/* A second heading within a section (Works in Progress after the Job Market Paper) */
+.section .paper-list + h2.section-title {
+  margin-top: clamp(2.5rem, 5vw, 3.5rem);
+}
+
 /* Papers / works in progress */
 .paper-list {
   display: grid;
@@ -666,6 +671,31 @@ a:hover {
   font-size: 0.95rem;
   color: var(--ink-soft);
   margin: 0;
+}
+
+/* Award line under a paper title: trophy icon hanging left of text that may wrap */
+.paper .paper-award {
+  position: relative;
+  padding-left: 1.6em;
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.paper-award svg {
+  position: absolute;
+  left: 0;
+  top: 0.3em; /* centers the icon on the first line (line-height 1.65) */
+  width: 1.05em;
+  height: 1.05em;
+  fill: currentColor;
+}
+
+/* Keeps the conference name on one line when the award wraps
+   (no text-wrap: balance on .paper-award: Chrome then breaks after "Paper") */
+.paper-award span {
+  display: inline-block;
 }
 
 .paper details {
@@ -824,7 +854,7 @@ a:hover {
 }
 
 /* --------------------------------------------------------------------------
-   Inner pages (CV, teaching, pronounce, chinese)
+   Inner pages (research, teaching, pronounce, chinese)
    -------------------------------------------------------------------------- */
 .page-hero {
   background: var(--cream);
@@ -924,96 +954,20 @@ a:hover {
   color: var(--white);
 }
 
-/* CV page */
-.cv-actions {
-  margin: 1.4rem 0 0;
-}
-
-.cv-section {
+/* Research page */
+.research-section {
   margin-bottom: clamp(2.25rem, 5vw, 3.25rem);
 }
 
-.cv-section:last-child {
+.research-section:last-child {
   margin-bottom: 0;
 }
 
-.cv-section h2 {
+.research-section h2 {
   font-size: clamp(1.5rem, 3vw, 1.9rem);
   padding-bottom: 0.6rem;
   border-bottom: 2px solid var(--green);
   margin-bottom: 1.4rem;
-}
-
-.cv-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.35rem 2rem;
-  padding-block: 0.9rem;
-  border-bottom: 1px solid var(--rule);
-}
-
-.cv-entry:last-child {
-  border-bottom: none;
-}
-
-.cv-entry h3 {
-  font-family: var(--sans);
-  font-size: 1.08rem;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-.cv-entry .cv-place {
-  color: var(--ink-soft);
-}
-
-.cv-entry .cv-place a {
-  color: inherit;
-}
-
-.cv-entry .cv-place a:hover {
-  color: var(--green);
-}
-
-.cv-meta {
-  text-align: right;
-  font-size: 0.95rem;
-  color: var(--ink-soft);
-  white-space: nowrap;
-}
-
-.cv-meta .cv-dates {
-  display: block;
-  font-weight: 700;
-  color: var(--ink);
-}
-
-@media (max-width: 36em) {
-  .cv-entry {
-    grid-template-columns: 1fr;
-  }
-
-  .cv-meta {
-    text-align: left;
-  }
-}
-
-/* Interest tags */
-.tag-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 0;
-  padding: 0;
-}
-
-.tag-list li {
-  background: var(--sage);
-  border: 1px solid var(--sage-deep);
-  border-radius: 999px;
-  padding: 0.32rem 0.95rem;
-  font-size: 0.95rem;
 }
 
 /* Teaching page */
@@ -1203,8 +1157,7 @@ main {
   .site-header,
   .site-footer,
   .nav-toggle,
-  .skip-link,
-  .cv-actions {
+  .skip-link {
     display: none !important;
   }
 
